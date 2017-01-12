@@ -1,14 +1,14 @@
 SYSTEMSGX
 =======================================
+S-OpenSGX (System-OpenSGX) is an open splatform that provides researchers with full system-level support for exploring SGX enclave-based programming, by addressing the fundamental limitations of OpenSGX. 
 S-OpenSGX, built on top of OpenSGX and QEMU's system emulation mode, 
-aims to tackle several limitations of OpenSGX (scheduling, 
-multi-threading, SGX paging, etc).
+aims to tackle several limitations of OpenSGX (scheduling, multi-threading, SGX paging, etc).
 S-OpenSGX consists of SystemSGX and SGX-Guest.
 SystemSGX is S-OpenSGX's System SGX Emulator which runs in a host machine.
 With system emulation, not only SGX-enabled CPU and MMU but also peripherals 
 can be freely modified in SystemSGX.
 
-Changho Choi <zpzigi@kaist.ac.kr>
+Changho Choi <zpzigi@kaist.ac.kr>, Brent ByungHoon Kang <brentkang@kaist.ac.kr> at CysecLab, GSIS(Graduate School of Information Security) School of Computing, KAIST.
 
 
 Environments & Prerequisites
